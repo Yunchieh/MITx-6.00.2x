@@ -1,5 +1,4 @@
-As a burgler robs a house, she finds the following items:
-​
+<b>As a burgler robs a house, she finds the following items:
  * Dirt - Weight: 4, Value: 0
 
  * Computer - Weight: 10, Value: 30
@@ -16,7 +15,7 @@ The algorithm works as follows:
 
 2. For each item, from highest metric value to lowest, add the item if there is room in the bag.
 
-Describe the heuristic that each of the following 3 metrics uses, and choose the result of running the algorithm with each metric.
+Describe the heuristic that each of the following 3 metrics uses, and choose the result of running the algorithm with each metric.</b>
 
 Q1: Metric 1:
 
@@ -25,11 +24,11 @@ def metric1(item):
 
 Q1-1. Which heuristic does Metric 1 employ?
 
-A: Choose the item with the best value to weight ratio first. 
+*A: Choose the item with the best value to weight ratio first.* 
 
 Q1-2. What will be the result of running the burgler's algorithm with Metric?
 
-A: The algorithm does not run.
+*A: The algorithm does not run.*
 
 Q2: Metric 2:
 
@@ -38,11 +37,11 @@ def metric2(item):
 
 Q2-1. Which heuristic does Metric 2 employ?
 
-A: Choose the lightest object first.
+*A: Choose the lightest object first.*
 
 Q2-2. What will be the result of running the burgler's algorithm with Metric 2?
 
-A: The algorithm runs and returns a non-optimal solution. 
+*A: The algorithm runs and returns a non-optimal solution.*
 
 Q3. Metric 3:
 
@@ -51,11 +50,11 @@ def metric3(item):
 
 Q3-1. Which heuristic does Metric 3 employ?
 
-A: Choose the most valuable object first.
+*A: Choose the most valuable object first.*
 
 Q3-2. What will be the result of running the burgler's algorithm with Metric 3?
 
-A: The algorithm runs and returns a non-optimal solution.
+*A: The algorithm runs and returns a non-optimal solution.*
 
 > **Right Answer:**
 
