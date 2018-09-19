@@ -1,4 +1,4 @@
-> Lecture 1 -Exercise 1
+> Lecture 1 - Exercise 1
 
 <b>As a burgler robs a house, she finds the following items:
 ​
