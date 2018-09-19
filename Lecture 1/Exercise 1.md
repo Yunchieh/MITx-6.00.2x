@@ -57,10 +57,10 @@ Q3-2. What will be the result of running the burgler's algorithm with Metric 3?
 
 A: The algorithm runs and returns a non-optimal solution.
 
-Right Answer:
+> **Right Answer:**
 
-For Metric 1, the Problem Set will give a ZeroDivisionError. 
+ * For Metric 1, the Problem Set will give a ZeroDivisionError. 
 
-For Metric 2, the negative sign indicates that we pick lighter objects. 
+ * For Metric 2, the negative sign indicates that we pick lighter objects. 
 
-For Metric 3, it will take the computer, the problem set, and the dirt because it has room for these three. However, taking the problem set will decrease the value.​
+ * For Metric 3, it will take the computer, the problem set, and the dirt because it has room for these three. However, taking the problem set will decrease the value.​
