@@ -1,6 +1,7 @@
-#================================
+#=================================
 #Part 2: Brute Force Cow Transport
-#================================
+#=================================
+
 #20.0/20.0 points (graded)
 #Another way to transport the cows is to look at every possible combination of trips and pick the best one. This is an example of a brute force algorithm.
 
