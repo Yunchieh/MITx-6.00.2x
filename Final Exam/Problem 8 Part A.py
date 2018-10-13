@@ -14,11 +14,9 @@ def rabbitGrowth():
       a new rabbit may be born.
     Nothing is returned.
     """
-    # you need this line for modifying global variables
+	
     global CURRENTRABBITPOP
 
-    # TO DO
-    #pass
     for i in range(CURRENTRABBITPOP):
         if random.random() <= (1 - (CURRENTRABBITPOP/MAXRABBITPOP)):
             CURRENTRABBITPOP += 1
@@ -34,12 +32,10 @@ def foxGrowth():
     If it does not eat a rabbit, then with a 1/10 prob it dies.
     Nothing is returned.
     """
-    # you need these lines for modifying global variables
+	
     global CURRENTRABBITPOP
     global CURRENTFOXPOP
 
-    # TO DO
-    #pass
     for i in range(CURRENTFOXPOP):
         if CURRENTRABBITPOP > 10:
             if random.random() <= (CURRENTRABBITPOP/MAXRABBITPOP):
@@ -61,9 +57,7 @@ def runSimulation(numSteps):
       at the END of each time step.
     Both lists should be `numSteps` items long.
     """
-
-    # TO DO
-    #pass
+	
     rabbits = []
     foxes = []
     for i in range(numSteps):
